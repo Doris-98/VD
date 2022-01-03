@@ -1,82 +1,183 @@
 html,body{
-	margin: 0;
-	padding: 0;
-	overflow: auto;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 
 .jumbotron-header {
-	background: url("UVD/92670619_1533851783455723_7529392976322101248_n - Copy.jpg");
-	background-size: cover;
-	height: calc(100vh);
-	border-radius: 0;
+    background: url("file:///C:/Users/Doris/Desktop/III/Uvod%20u%20veb%20dizajn/Projekat%201/Projekat%20UVD/Doris/92670619_1533851783455723_7529392976322101248_n.jpg");
+    background-size: cover;
+    height: calc(100vh);
+    border-radius: 0;
 }
 
+.navFix {
+    position:fixed;
+    top:0;
+    background:transparent;
+    width:100%;
+    height:50px;
+    
+} 
+
+
+.light {
+    position:fixed;
+    top:0;
+    background:rgb(204, 204, 204);
+    width:100%;
+    height:50px;
+    opacity:0.5;
+    
+}
+
+.navFix{
+    background-color: rgb(204, 204, 204);
+    height: auto ;
+    
+} 
+
+.navbar-hamburger {
+    font-size:25px;
+    font-weight:600;
+    color:rgb(204, 204, 204);
+    text-transform:uppercase;
+    padding-left:10px;
+}
+.navbar-hamburger:hover{
+    text-decoration:none;
+    color:white;
+}
 .a-link{
     color : black;
     text-decoration: none;
-    font-size: 25px;
-	line-height: 2.278;
+    font-size: 18px;
+    line-height: 2.278;
+    text-align: center;
 }
 
-.a-link:hover{
+.nav-link:hover {
     color: black;
-    text-decoration: none;
-    padding: 15px 30px; 
-    font-size: 25px; 
+    padding: 15px 15px;
 }
 
 img{
     height: 140px;
-    width: 140px;
-    
+    width: 140px;    
 }
 
 .text-h3{
-    text-align: center;
     color: black;
-    font-size: 25px;
+    text-align: center;
+    margin-top: 20vw;
+    font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.slika-noc{
+    margin-top: -32px;
+}
+
 .slika1{
-    background-size: cover;
+    background-size: auto;
     height: 490px;
     width: 1700px;
     border-radius: 0%;
-}
+    position: relative;
 
-
-.slika2{
-    background-size: cover;
-    height:700px;
-    width: 350px;
 }
 
 .slika3{
     height:50px;
     width:50px;
+    margin-right: 20px;
+}
+
+.k-h3{
+    color:black;
+    font-size: 25px;
 }
 
 .kontakt-h3{
     color:black;
     font-size: 25px;
+    margin-left: 40px;
 }
 
-.footer{
-    height: 100px;
-    width : 50px; 
-    background-position: center; 
+.columnContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.imageContainer1 {
+    text-align: center;
+    background-image: url("file:///C:/Users/Doris/Desktop/III/Uvod%20u%20veb%20dizajn/Projekat%201/Projekat%20UVD/Doris/46486146_1128440013996904_1514401220846944256_n.jpg");
+    height:700px;
+    width: 350px;
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-size: cover; 
-    color:black; 
+    background-size: cover;
 }
 
+.imageContainer2 {
+    text-align: center;
+    background-image: url("file:///C:/Users/Doris/Desktop/III/Uvod%20u%20veb%20dizajn/Projekat%201/Projekat%20UVD/Doris/Untitled.jpg"); 
+    height:700px;
+    width: 350px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
 
+.imageContainer3 {
+    text-align: center;
+    background-image: url("file:///C:/Users/Doris/Desktop/III/Uvod%20u%20veb%20dizajn/Projekat%201/Projekat%20UVD/Doris/92360186_1533851410122427_8916216132126375936_n.jpg");
+    height:700px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
+.text-h4{
+    color: black;
+    font-size: 30px;
+}
 
+.text-h2{
+    color:whitesmoke;
+    font-size: 30px;
+}
 
+.dugme{
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 0;
+    text-decoration: none;  
+    position: relative;
+    top: 550px;
+    background-color: white;
+    border:2px solid white;
+    text-decoration: none !important;
+}
 
+.dugme:hover{
+    color: white;
+    border: 6px solid white;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none; 
+    border-radius: 10;
+    background-color: black;
+    text-decoration: none !important;
+}
 
+.vreme{
+    height: 80px;
+    width: 80px;
+    margin-left:90px;
+}
 
-
+p{
+    margin-left: 100px;
+    color: black;
+}
